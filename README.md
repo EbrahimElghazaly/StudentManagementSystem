@@ -65,6 +65,15 @@
 ---
 
 ## 📁 هيكل المشروع
+StudentManagementSystem/
+│
+├── Program.cs # الكود المصدري الرئيسي
+├── StudentManagementSystem.csproj # ملف تعريف المشروع
+└── README.md # شرح المشروع (هذا الملف)
+
+### هيكل الكود:
+
+```csharp
 class Student
 {
     // Fields
@@ -88,8 +97,70 @@ class Student
     // Main
     static void Main()
 }
+🔧 التحديات التي واجهتني
+المشكلة: عدم ظهور اللغة العربية في الـ Console
+عند تشغيل البرنامج، كانت النصوص العربية تظهر بشكل مشوه أو لا تظهر نهائياً.
 
-المخرجات المتوقعة
+السبب:
+الـ Command Prompt في Windows يستخدم ترميزاً افتراضياً لا يدعم اللغة العربية (Code Page 1252)، بينما اللغة العربية تحتاج إلى ترميز UTF-8 (Code Page 65001).
+
+الحل:
+1. في الكود:
+
+csharp
+Console.OutputEncoding = Encoding.UTF8;
+Console.InputEncoding = Encoding.UTF8;
+2. في إعدادات Visual Studio:
+
+File → Save As... → Save with Encoding → Unicode (UTF-8 with signature)
+
+3. في الـ Command Prompt:
+
+تغيير الخط إلى Consolas أو Lucida Console
+
+كتابة الأمر: chcp 65001
+
+📚 الدروس المستفادة
+📘 فهم عميق لمفاهيم الـ OOP في C#
+
+📗 كيفية التعامل مع المشكلات التقنية وحلها خطوة بخطوة
+
+📕 أهمية الترميز الصحيح للغات في البرمجة (Encoding)
+
+📙 الصبر والاستمرار حتى ينجح الكود
+
+📒 استخدام Setter & Getter لتطبيق مبدأ Encapsulation
+
+👨‍💻 المؤلف
+Ibrahim Mohamed El-Ghazaly
+
+🙏 شكر وتقدير
+أود أن أشكر الأستاذ/ المهندس Mohamed Essam على:
+
+📚 مجهوده الكبير معنا في المحاضرات
+
+🎯 شرحه الواضح والمبسط للمفاهيم
+
+💡 دعمه المستمر وتشجيعه لنا
+
+كان له دور كبير في فهمي للبرمجة بشكل عام ولغة C# بشكل خاص.
+
+جزاك الله خيراً على ما تقدمه لنا من علم وخبرة. 🙏
+
+📜 الترخيص
+هذا المشروع مقدم للأغراض التعليمية.
+
+🔗 روابط مفيدة
+Microsoft C# Documentation
+
+.NET Documentation
+
+GitHub Guides
+
+⭐ Show Your Support
+إذا أعجبك المشروع، لا تنسى أن تترك ⭐ على GitHub!
+
+##المخرجات المتوقعة
 
 على مجهودوا معانا فى المحاضرات Mohamed Essam - اولا حابب اشكر البشمهندس
 
