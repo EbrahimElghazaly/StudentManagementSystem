@@ -92,9 +92,13 @@ class Student
 المخرجات المتوقعة
 
 على مجهودوا معانا فى المحاضرات Mohamed Essam - اولا حابب اشكر البشمهندس
+
 I am Ibrahim Mohamed El-Ghazaly
+
 الحمد الله اني انشاءت هذا البروجيكت دون استخدام الذكاء الاصطناعى ابدا والله اعلم
+
 بحيث اشوف كدة ان دا اللى كان مطلوب chatgpt ولاكن راجعت الكود على
+
 ========== Thank you ==========
 
 ========== This Is Project ==========
@@ -106,6 +110,7 @@ Age: 20
 Grade: 85
 Status: Passed
 Grade Status: Very Good
+
 ========== Student 2 ==========
 
 Name: Mohamed
@@ -113,6 +118,7 @@ Age: 21
 Grade: 45
 Status: Failed
 Grade Status: Failed
+
 ========== Student 3 ==========
 
 Name: Omar
