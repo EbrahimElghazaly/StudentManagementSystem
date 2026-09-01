@@ -106,25 +106,37 @@ I am Ibrahim Mohamed El-Ghazaly
 ========== Student 1 ==========
 
 Name: Ahmed
+
 Age: 20
+
 Grade: 85
+
 Status: Passed
+
 Grade Status: Very Good
 
 ========== Student 2 ==========
 
 Name: Mohamed
+
 Age: 21
+
 Grade: 45
+
 Status: Failed
+
 Grade Status: Failed
 
 ========== Student 3 ==========
 
 Name: Omar
+
 Age: 19
+
 Grade: 70
+
 Status: Passed
+
 Grade Status: Good
 
 === Code Execution Successful ===
